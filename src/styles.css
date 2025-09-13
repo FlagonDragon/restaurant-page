@@ -1,3 +1,27 @@
 * {
-    background-color: darkgreen;
+    background-color: lightpink;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav button {
+    background-color: lightblue;
+}
+
+#content h1 {
+    text-align: center;
+    color: darkred;
+}
+
+#content p {
+    text-align: center;
+}
+
+.pastriesImg {
+    height: 350px;
+    width: min-content;
+    align-self: center;
 }
