@@ -2,25 +2,28 @@
     background-color: lightpink;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-}
-
 nav button {
     background-color: lightblue;
 }
 
-#content h1 {
+/* home tab  */
+
+.homeDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.homeDiv h1 {
     text-align: center;
     color: darkred;
 }
 
-#content p {
+.homeDiv p {
     text-align: center;
 }
 
-#content img {
+.homeDiv img {
     height: 350px;
     width: min-content;
     align-self: center;
