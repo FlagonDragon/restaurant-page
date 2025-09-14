@@ -2,7 +2,7 @@
     background-color: lightpink;
 }
 
-body {
+#content {
     display: flex;
     flex-direction: column;
 }
@@ -20,8 +20,12 @@ nav button {
     text-align: center;
 }
 
-.pastriesImg {
+#content img {
     height: 350px;
     width: min-content;
     align-self: center;
+}
+
+.pHome2 {
+    white-space: pre;
 }

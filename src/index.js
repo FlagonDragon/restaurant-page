@@ -1,5 +1,7 @@
 import './styles.css';
-import pastries from './pastries.png'
+import loadHome from './loadHome';
+
+loadHome();
 
 // import changeColor from './loadFunc';
 // changeColor();
