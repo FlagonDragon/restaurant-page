@@ -1,7 +1,5 @@
 import pastries from './pastries.png'
 
-const content = document.querySelector('#content')
-
 const homeDiv = document.createElement('div');
 homeDiv.classList.add("homeDiv");
 

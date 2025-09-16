@@ -1,19 +1,44 @@
+// imports
+
 import './styles.css';
 
-// import loadHome from './loadHome';
-// loadHome();
-
-// import loadMenu from './loadMenu';
-// loadMenu();
-
+import loadHome from './loadHome';
+import loadMenu from './loadMenu';
 import loadAbout from './loadAbout';
-loadAbout();
 
-console.log('yeah we dooby workin tbh');
-console.log('yooo was goin on');
+loadHome();
+
+// change tab
+
+const content = document.querySelector('#content')
 
 const homeBtn = document.querySelector('#homeBtn');
 const menuBtn = document.querySelector('#menuBtn');
 const aboutBtn = document.querySelector('#aboutBtn');
+
+homeBtn.addEventListener('click', () => {
+
+    content.firstElementChild.remove();
+
+    loadHome();
+
+});
+
+menuBtn.addEventListener('click', () => {
+
+    content.firstElementChild.remove();
+
+    loadMenu();
+
+});
+
+aboutBtn.addEventListener('click', () => {
+
+    content.firstElementChild.remove();
+
+    loadAbout();
+
+});
+
    
 
