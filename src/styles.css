@@ -8,18 +8,18 @@ nav button {
 
 /* home tab  */
 
-.homeDiv {
+.homeDiv, .menuDiv {
     display: flex;
     flex-direction: column;
 }
 
 
-.homeDiv h1 {
+.homeDiv h1, .menuDiv h1 {
     text-align: center;
     color: darkred;
 }
 
-.homeDiv p {
+.homeDiv, .menuDiv p {
     text-align: center;
 }
 
@@ -31,4 +31,17 @@ nav button {
 
 .pHome2 {
     white-space: pre;
+}
+
+/* menu tab  */
+
+.menuDiv h4 {
+    color: slateblue;
+    text-align: center;
+}
+
+.menuDiv img {
+    height: 250px;
+    width: min-content;
+    align-self: center;
 }

@@ -28,12 +28,12 @@ pHome2.textContent +=  'Sun: Closed'
 
 const loadHome = function() {
 
-content.appendChild(homeDiv);
+        content.appendChild(homeDiv);
 
-homeDiv.appendChild(h1Home);
-homeDiv.appendChild(pastriesImg);
-homeDiv.appendChild(pHome);
-homeDiv.appendChild(pHome2);
+        homeDiv.appendChild(h1Home);
+        homeDiv.appendChild(pastriesImg);
+        homeDiv.appendChild(pHome);
+        homeDiv.appendChild(pHome2);
 
 };
 
