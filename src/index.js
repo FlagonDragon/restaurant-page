@@ -3,11 +3,11 @@ import './styles.css';
 // import loadHome from './loadHome';
 // loadHome();
 
-import loadMenu from './loadMenu';
-loadMenu();
+// import loadMenu from './loadMenu';
+// loadMenu();
 
-// import loadAbout from './loadAbout';
-// loadAbout();
+import loadAbout from './loadAbout';
+loadAbout();
 
 console.log('yeah we dooby workin tbh');
 console.log('yooo was goin on');

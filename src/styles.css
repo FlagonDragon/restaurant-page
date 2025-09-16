@@ -8,18 +8,18 @@ nav button {
 
 /* home tab  */
 
-.homeDiv, .menuDiv {
+.homeDiv, .menuDiv, .aboutDiv {
     display: flex;
     flex-direction: column;
 }
 
 
-.homeDiv h1, .menuDiv h1 {
+.homeDiv h1, .menuDiv h1, .aboutDiv h1 {
     text-align: center;
     color: darkred;
 }
 
-.homeDiv, .menuDiv p {
+.homeDiv p, .menuDiv p, .aboutDiv p {
     text-align: center;
 }
 
@@ -35,13 +35,21 @@ nav button {
 
 /* menu tab  */
 
-.menuDiv h4 {
+.menuDiv h4, .aboutDiv h4 {
     color: slateblue;
     text-align: center;
 }
 
-.menuDiv img {
+.menuDiv img, .aboutDiv img {
     height: 250px;
+    width: min-content;
+    align-self: center;
+}
+
+/* about */
+
+.aboutDiv img {
+    height: 200px;
     width: min-content;
     align-self: center;
 }
